@@ -1,0 +1,11 @@
+cite {
+    display: block;
+    @include include-element-margin($cite-margin-top, $cite-margin-bottom, $cite-margin-left, $cite-margin-right, $cite-margin-for-screens);
+    padding: 0;
+    font-size: $cite-font-size;
+    font-style: $cite-font-style;
+
+    &:before {
+        content: $cite-prefix;
+    }
+}
