@@ -14,6 +14,7 @@ cite {
     ), $cite-padding-for-screens);
     font-size: $cite-font-size;
     font-style: $cite-font-style;
+    @include cite-extra-style();
 
     &::before {
         content: $cite-prefix;

@@ -37,3 +37,6 @@ $cite-padding-for-screens: () !default;
 $cite-prefix: "- " !default;
 $cite-font-size: 1em !default;
 $cite-font-style: italic !default;
+
+//Extra style
+@mixin cite-extra-style() {}
