@@ -14,7 +14,9 @@ cite {
     ));
     font-size: $cite-font-size;
     font-style: $cite-font-style;
-    @include cite-extra-style();
+    @if mixin-exists(cite-extra-style) {
+        @include cite-extra-style();
+    }
 
     &::before {
         content: $cite-prefix;

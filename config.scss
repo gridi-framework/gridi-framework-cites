@@ -18,4 +18,4 @@ $cite-font-size: 1em !default;
 $cite-font-style: italic !default;
 
 //Extra style
-@mixin cite-extra-style() {}
+//@mixin cite-extra-style() {} //Create this mixin before import module when you want add some special style for element
